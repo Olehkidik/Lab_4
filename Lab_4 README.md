@@ -1,4 +1,5 @@
 # Lab_4
+```
 def count_lines(file_path):
     with open(file_path, 'r') as file:
         lines = file.readlines()
@@ -41,6 +42,7 @@ def print_statistics(file_path):
     print(" total lines:", count_lines(file_path))
     print(" empty lines:", count_empty_lines(file_path))
     print(' lines with "z":', count_lines_with_z(file_path))
+    ```
     print(' "z" count:', count_z_occurrences(file_path))
     print(' lines with "and":', count_lines_with_and(file_path))
 
